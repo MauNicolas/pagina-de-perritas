@@ -1,9 +1,77 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>This will show in the browser tab!</title>
+    <style>
+      body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1em;
+      }
+
+      #info {
+        max-width: 600px;
+        margin: 20px auto;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      .contact-section {
+        max-width: 600px;
+        margin: 20px auto;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+
+      label {
+        margin-bottom: 5px;
+      }
+
+      input,
+      textarea {
+        margin-bottom: 10px;
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+      }
+
+      input[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        cursor: pointer;
+      }
+
+      #dog {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 20px auto;
+        border-radius: 8px;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -25,18 +93,16 @@
     <div class="contact-section">
       <h3>Contacto</h3> 
       <hr>
-      <!-- Change the following line ni loco pongo mi mail -->
-       <form action="https://formspree.io/<maurohornus@gmail.com>" method="POST">
-         <label for="name">Name: </label>
+      <form action="https://formspree.io/<maurohornus@gmail.com>" method="POST">
+        <label for="name">Name: </label>
         <input type="text" name="nombre" placeholder="como es tu nombre?"><br>
-         <label for="message">Your message: </label>
+        <label for="message">Your message: </label>
         <textarea name="message" placeholder="cuentame de ti!"></textarea>
         <input type="submit" value="Hi!">
       </form>
     </div>
     
     <h3>I hope we get to play soon!</h3> 
-    <!--<img id="dog" src="https://aka.ms/Benji-the-dog"-->
     <img id="dog" src="WINNIE.jpeg" alt="mi perra WINNIE">
   </body>
 </html>
