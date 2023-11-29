@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css?family=Heebo|Open+Sans');
+
+body
+{
+  font-family: 'Heebo', sans-serif;
+  padding: 0;
+}
+
+header 
+{
+  background-color: #0097A7;
+  color: black;
+  padding: 10px;
+}
+
+input 
+{
+  margin: 5px 4px;
+}
+
+input[type="submit"]
+{
+  background-color: #0097A7;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 3px; 
+}
+
+textarea
+{
+    margin-left: 40px;
+}
+
+#page-title 
+{
+  font-family: 'Open Sans', sans-serif;
+}
+
+#info
+{
+  color: #0097A7;
+  margin: 10px;
+}
+
+#dog
+{
+  height: 350px;
+  margin: 10px;
+}
+
+.contact-section
+{
+  width: 250px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #FCFC69;
+}
